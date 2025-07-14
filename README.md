@@ -45,4 +45,4 @@ This solution leverages AWS serverless architecture instead of traditional compu
 ## Conclusion
 In this project, serverless architecture is the optimal choice for image processing, which are short-lived and sporadic workloads.
 
-[^1]: Special thanks to Manara team for teaching me to become an AWS solution architect.
+[^1]: Special thanks to Manara team for teaching me to become an AWS solutions architect.
