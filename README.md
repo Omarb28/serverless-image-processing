@@ -1,31 +1,36 @@
 # Serverless Image Processing with S3 and Lambda
-Final project for AWS Solutions Architect Course on Manara[^1]  
-Solution made by student: Omar Bamarouf
 
 <br />
 
-## Table of Content
-- [Project Overview](#project-overview)
-- [Architecture Diagram](#architecture-diagram)
-- [Component Details](#component-details)
-- [AWS Services Used](#aws-services-used)
-- [Key Features](#key-features)
-- [Why Serverless Architecture?](#why-serverless-architecture)
-- [Conclusion](#conclusion)
+Final project for AWS Solutions Architect course on Manara[^1]  
+Made by student: Omar Bamarouf
 
 <br />
 
-## Project Overview
-This project presents a solution for serverless image processing where users can upload images to an S3 bucket, triggering an AWS Lambda function that resizes, applies watermark, and stores processed images in another S3 bucket.
+## 📋 Table of Content
+- :pushpin: [Project Overview](#pushpin-project-overview)
+- :triangular_ruler: [Architecture Diagram](#triangular_ruler-architecture-diagram)
+- :wrench: [Component Details](#wrench-component-details)
+- :cloud: [AWS Services Used](#cloud-aws-services-used)
+- :sparkles: [Key Features](#sparkles-key-features)
+- :rocket: [Why Serverless Architecture?](#rocket-why-serverless-architecture)
+- :white_check_mark: [Conclusion](#white_check_mark-conclusion)
 
 <br />
 
-## Architecture Diagram
+## :pushpin: Project Overview
+This project presents a solution for a fully automated, event-driven image processing system using AWS serverless technologies.
+
+It enables users to upload images (e.g., photos, product thumbnails) to an Amazon S3 bucket, which automatically triggers an AWS Lambda function to perform dynamic transformations such as resizing and watermarking. The processed images are then stored in a separate destination S3 bucket.
+
+<br />
+
+## :triangular_ruler: Architecture Diagram
 ![Architecture Diagram](architecture-diagram.png)
 
 <br />
 
-## Component Details
+## :wrench: Component Details
 | Component | Description |
 | :--- | :--- |
 | Original Images Bucket | Stores original images uploaded by users. Configured to trigger Lambda on uploads. |
@@ -34,13 +39,13 @@ This project presents a solution for serverless image processing where users can
 
 <br />
 
-## AWS Services Used
-- **Amazon S3** – Object storage service for scalable, secure, and durable file storage with high availability.
-- **AWS Lambda** – Serverless compute service that runs code in response to events without managing servers.
+## :cloud: AWS Services Used
+- **[Amazon S3](https://aws.amazon.com/s3/)** – Object storage service for scalable, secure, and durable file storage with high availability.
+- **[AWS Lambda](https://aws.amazon.com/lambda/)** – Serverless compute service that runs code in response to events without managing servers.
 
 <br />
 
-## Key Features
+## :sparkles: Key Features
 - [x] **Event-Driven Processing** – Automatically triggers Lambda on S3 uploads.
 - [x] **Image Transformations** – Resize and apply watermarks.
 - [x] **Cost-Efficient** – Pay-per-use with Lambda & S3.
@@ -48,7 +53,7 @@ This project presents a solution for serverless image processing where users can
 
 <br />
 
-## Why Serverless Architecture?
+## :rocket: Why Serverless Architecture?
 This solution leverages AWS serverless architecture instead of traditional compute options for several key reasons:
 1. Cost Efficiency.
 2. Automatic Scaling.
@@ -58,7 +63,7 @@ This solution leverages AWS serverless architecture instead of traditional compu
 
 <br />
 
-## Conclusion
+## :white_check_mark: Conclusion
 In this project, serverless architecture is the optimal choice for image processing, which are short-lived and sporadic workloads.
 
 <br />
