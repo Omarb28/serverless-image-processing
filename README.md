@@ -2,8 +2,6 @@
 Final project for AWS Solutions Architect Course on Manara[^1]  
 Solution made by student: Omar Bamarouf
 
-
-
 ## Table of Content
 - [Project Overview](#project-overview)
 - [Architecture Diagram](#architecture-diagram)
@@ -38,13 +36,13 @@ This project presents a solution for serverless image processing where users can
 
 ## Why Serverless Architecture?
 This solution leverages AWS serverless architecture instead of traditional compute options for several key reasons:
-1. Cost Efficiency
-2. Automatic Scaling
-3. Event-Driven & Decoupled
-4. Reduced Operational Complexity
-5. Faster Time-to-Market
+1. Cost Efficiency.
+2. Automatic Scaling.
+3. Event-Driven & Decoupled.
+4. Reduced Operational Complexity.
+5. Faster Time-to-Market.
 
 ## Conclusion
-In this project serverless architecture is the optimal choice for For image processing which are short-lived and sporadic workloads.
+In this project, serverless architecture is the optimal choice for image processing, which are short-lived and sporadic workloads.
 
 [^1]: Special thanks to Manara team for teaching me to become an AWS solution architect.
