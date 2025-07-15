@@ -11,8 +11,8 @@ Made by student: Omar Bamarouf
 - :pushpin: [Project Overview](#pushpin-project-overview)
 - :triangular_ruler: [Architecture Diagram](#triangular_ruler-architecture-diagram)
 - :wrench: [Component Details](#wrench-component-details)
-- :cloud: [AWS Services Used](#cloud-aws-services-used)
 - :sparkles: [Key Features](#sparkles-key-features)
+- :cloud: [AWS Services Used](#cloud-aws-services-used)
 - :rocket: [Why Serverless Architecture?](#rocket-why-serverless-architecture)
 - :white_check_mark: [Conclusion](#white_check_mark-conclusion)
 
@@ -39,12 +39,6 @@ It enables users to upload images (e.g., photos, product thumbnails) to an Amazo
 
 <br />
 
-## :cloud: AWS Services Used
-- **[Amazon S3](https://aws.amazon.com/s3/)** – Object storage service for scalable, secure, and durable file storage with high availability.
-- **[AWS Lambda](https://aws.amazon.com/lambda/)** – Serverless compute service that runs code in response to events without managing servers.
-
-<br />
-
 ## :sparkles: Key Features
 - [x] **Event-Driven Processing** – Automatically triggers Lambda on S3 uploads.
 - [x] **Image Transformations** – Resize and apply watermarks.
@@ -53,13 +47,19 @@ It enables users to upload images (e.g., photos, product thumbnails) to an Amazo
 
 <br />
 
+## :cloud: AWS Services Used
+- **[Amazon S3](https://aws.amazon.com/s3/)** – Object storage service for scalable, secure, and durable file storage with high availability.
+- **[AWS Lambda](https://aws.amazon.com/lambda/)** – Serverless compute service that runs code in response to events without managing servers.
+
+<br />
+
 ## :rocket: Why Serverless Architecture?
 This solution leverages AWS serverless architecture instead of traditional compute options for several key reasons:
-1. Cost Efficiency.
-2. Automatic Scaling.
-3. Event-Driven & Decoupled.
-4. Reduced Operational Complexity.
-5. Faster Time-to-Market.
+1. Cost Efficiency
+2. Automatic Scaling
+3. Event-Driven & Decoupled
+4. Reduced Operational Complexity
+5. Faster Time-to-Market
 
 <br />
 
