@@ -14,6 +14,7 @@ Made by student: Omar Bamarouf
 - :sparkles: [Key Features](#sparkles-key-features)
 - :cloud: [AWS Services Used](#cloud-aws-services-used)
 - :rocket: [Why Serverless Architecture?](#rocket-why-serverless-architecture)
+- :soon: [Next Steps](#soon-next-steps)
 - :white_check_mark: [Conclusion](#white_check_mark-conclusion)
 
 <br />
@@ -21,7 +22,7 @@ Made by student: Omar Bamarouf
 ## :pushpin: Project Overview
 This project presents a solution for a fully automated, event-driven image processing system using AWS serverless technologies.
 
-It enables users to upload images (e.g., photos, product thumbnails) to an Amazon S3 bucket, which automatically triggers an AWS Lambda function to perform dynamic transformations such as resizing and watermarking. The processed images are then stored in a separate destination S3 bucket.
+It enables users to upload images to an Amazon S3 bucket, which automatically triggers an AWS Lambda function to perform dynamic transformations such as resizing and watermarking. The processed images are then stored in a separate destination S3 bucket.
 
 <br />
 
@@ -60,6 +61,18 @@ This solution leverages AWS serverless architecture instead of traditional compu
 3. Event-Driven & Decoupled
 4. Reduced Operational Complexity
 5. Faster Time-to-Market
+
+<br />
+
+## :soon: Next Steps
+To extend this solution's capabilities and strengthen its production readiness, consider implementing these strategic improvements.  
+Each enhancement builds upon the core architecture while addressing specific operational, security, or scalability needs:
+- **IAM Roles** – Grant secure and granular permissions to AWS services and resources.
+- **S3 Bucket Policies** – Control access to specific S3 buckets for allowing or denying read/write actions.
+- **Amazon API Gateway** – Replace direct S3 uploads with a secure REST API endpoint for controlled image submissions.
+- **Amazon DynamoDB** – Store and manage image metadata in a serverless NoSQL database.
+- **AWS Step Functions** – Coordinate and visualize multi-stage serverless workflows with built-in error handling.
+
 
 <br />
 
