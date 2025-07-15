@@ -14,7 +14,7 @@ Made by student: Omar Bamarouf
 - :sparkles: [Key Features](#sparkles-key-features)
 - :cloud: [AWS Services Used](#cloud-aws-services-used)
 - :rocket: [Why Serverless Architecture?](#rocket-why-serverless-architecture)
-- :soon: [Next Steps](#soon-next-steps)
+- :construction: [Next Steps](#construction-next-steps)
 - :white_check_mark: [Conclusion](#white_check_mark-conclusion)
 
 <br />
@@ -64,9 +64,8 @@ This solution leverages AWS serverless architecture instead of traditional compu
 
 <br />
 
-## :soon: Next Steps
-To extend this solution's capabilities and strengthen its production readiness, consider implementing these strategic improvements.  
-Each enhancement builds upon the core architecture while addressing specific operational, security, or scalability needs:
+## :construction: Next Steps
+Below are considerations for extending the capabilities of the solution for strengthening its production readiness:
 - **IAM Roles** – Grant secure and granular permissions to AWS services and resources.
 - **S3 Bucket Policies** – Control access to specific S3 buckets for allowing or denying read/write actions.
 - **Amazon API Gateway** – Replace direct S3 uploads with a secure REST API endpoint for controlled image submissions.
