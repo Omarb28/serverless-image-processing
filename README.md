@@ -35,7 +35,7 @@ It enables users to upload images to an Amazon S3 bucket, which automatically tr
 | Component | Description |
 | :--- | :--- |
 | Original Images Bucket | Stores original images uploaded by users. Configured to trigger Lambda on uploads. |
-| Image Processing Function | Processes images (resize and apply watermarks). |
+| Image Processing Function | Processes images by resizing and applying watermarks. |
 | Processed Images Bucket | Stores processed images. |
 
 <br />
